@@ -1,0 +1,22 @@
+name = "cf-ai-waleed"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+# Workers AI Binding
+[ai]
+binding = "AI"
+
+# Durable Objects Bindings
+[[durable_objects.bindings]]
+name = "CHAT_SESSIONS"
+class_name = "ChatSession"
+
+# Migration for Durable Objects
+[[migrations]]
+tag = "v1"
+new_classes = ["ChatSession"]
+
+# Assets for Pages
+[assets]
+directory = "./public"
+binding = "ASSETS"

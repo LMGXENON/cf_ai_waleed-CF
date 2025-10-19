@@ -1,0 +1,29 @@
+{
+  "name": "cf_ai_waleed-ai",
+  "version": "1.0.0",
+  "description": "AI-powered chat application using Cloudflare Workers AI with Llama 3.3, Durable Objects for state management, and Pages for frontend",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:pages": "wrangler pages deploy public",
+    "start": "wrangler dev"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "ai",
+    "llama",
+    "durable-objects",
+    "chat",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Waleed",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.94.0"
+  },
+  "dependencies": {}
+}
